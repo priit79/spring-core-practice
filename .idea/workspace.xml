@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="160fcac4-0a7d-4796-ae22-776b7b4f23be" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sda/beans/MyBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContent.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sda/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sda/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="160fcac4-0a7d-4796-ae22-776b7b4f23be" name="Changes" comment="initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +69,7 @@
       <updated>1676571751602</updated>
       <workItem from="1676571752687" duration="365000" />
       <workItem from="1676616655349" duration="158000" />
-      <workItem from="1676909190431" duration="3608000" />
+      <workItem from="1676909190431" duration="3919000" />
     </task>
     <task id="LOCAL−00001" summary="initial commit">
       <created>1676912792845</created>
@@ -83,7 +77,13 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1676912792845</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="initial commit">
+      <created>1676915772567</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1676915772567</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
