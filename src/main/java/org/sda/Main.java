@@ -15,7 +15,7 @@ public class Main {
         MyBean myBean = (MyBean) applicationContext.getBean("myBean");
         System.out.println(myBean.sayHello());
 
-        myBean.setName("John");
+        myBean.setName("Enno");
         System.out.println(myBean.sayHello());
     }
 }
