@@ -5,7 +5,6 @@ import org.sda.configuration.ApplicationConfiguration;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
- *
  * @author Priit Enno
  * @Date ${DATE}
  */
