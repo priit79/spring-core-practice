@@ -1,8 +1,9 @@
 package org.sda;
 
 import org.sda.beans.MyBean;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.sda.beans.SecondName;
+import org.sda.configuration.ApplicationConfiguration;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
  * @author Priit Enno
@@ -10,12 +11,15 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class Main {
     public static void main(String[] args) {
-        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
+        AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext();
+        applicationContext.register(ApplicationConfiguration.class);
+        applicationContext.refresh();
 
-        MyBean myBean = (MyBean) applicationContext.getBean("myBean");
+        MyBean myBean = applicationContext.getBean(MyBean.class);
         System.out.println(myBean.sayHello());
 
-        myBean.setName("John");
+        myBean.setName(new SecondName());
         System.out.println(myBean.sayHello());
+
     }
 }
